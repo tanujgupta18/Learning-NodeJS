@@ -1,0 +1,19 @@
+{
+  "name": "12.-starting-with-fastify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --env-file=.env ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@fastify/multipart": "^9.0.3",
+    "fastify": "^5.2.1",
+    "fastify-mongodb": "^4.1.1"
+  }
+}
